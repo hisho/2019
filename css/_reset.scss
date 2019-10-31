@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+//⬆︎を何かしらで取得してユニバーサルセレクタじゃなくしたい。
+*,*::after,*::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-feature-settings : "palt";
+}
+
+body {
+	font-family: '游ゴシック Medium', 'Yu Gothic Medium', '游ゴシック体', 'YuGothic', 'sans-serif';
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+	pointer-events: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+.flex {
+	display: flex;
+}
